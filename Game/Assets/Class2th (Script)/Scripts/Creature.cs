@@ -4,15 +4,17 @@ using UnityEngine;
 
 public class Creature : MonoBehaviour
 {
-    public Stats stat;
+    private Stats stats = new Stats();
     public Creature()
-    {
-        stat = new Stats();
-        stat.name = "Bear";
-        stat.level = 5;
-        stat.health = 150;
+    {      
+        stats.Level = 1;
+        stats.Health = 100;
+        stats.Name = "Bear";
 
-        Debug.Log("Creature");
+        Debug.Log("Level : " + stats.Level);
+        Debug.Log("Level : " + stats.Health);
+        Debug.Log("Level : " + stats.Name);
+
     }
 
 }
