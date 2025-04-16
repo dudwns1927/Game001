@@ -355,6 +355,7 @@
 "Assets/Class2th (Script)/Scripts/Creature.cs"
 "Assets/Class2th (Script)/Scripts/Stats.cs"
 "Assets/Class3th (Life Cycle)/Scripts/State.cs"
+"Assets/Class5th (Prefab System)/Scripts/Ability.cs"
 -langversion:9.0
 /deterministic
 /optimize+
