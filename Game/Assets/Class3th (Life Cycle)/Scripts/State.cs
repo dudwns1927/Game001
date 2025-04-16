@@ -31,4 +31,46 @@ public class State : MonoBehaviour
         Debug.Log("Start");
     }
 
+    private void FixedUpdate()
+    {
+        // FixedUpdate 함수란?
+        // TimeStep에 설정된 값에 따라 일정한 간격으로 호출되는 이벤트 합수입니다.
+
+        Debug.Log("FixedUpdate");
+        
+    }
+
+    private void Update()
+    {
+        // Update 함수란?
+        // 게임이 실행되는 동안 매 프레임마다 호출되는 이벤트 함수입니다.
+
+        Debug.Log("Update");
+    }
+
+    private void LateUpdate()
+    {
+        // LateUpdate 함수란?
+        // Update 함수가 끝난 후에 호출되는 이벤트 함수입니다.
+        // Update 함수에서 카메라의 위치를 변경한 후에, 그 위치를 기준으로 오브젝트를 이동시키고 싶을 때 사용합니다.
+
+        Debug.Log("LateUpdate");
+    }
+
+    private void OnDisable()
+    {
+        // OnDisable 함수란?
+        // 게임 오브젝트가 비활성화되는 순간마다 호출되는 이벤트 함수입니다.
+
+        Debug.Log("OnDisable");
+    }
+
+    private void OnDestroy() {
+        // OnDestroy 함수란?
+        // 게임 오브젝트가 파괴되는 순간마다 호출되는 이벤트 함수입니다.
+        // 게임 오브젝트가 파괴되기 전에 필요한 작업을 수행할 수 있습니다.
+
+        Debug.Log("OnDestroy");
+    }
+    
 }
