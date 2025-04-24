@@ -359,6 +359,7 @@
 "Assets/Class7th (UserInterface)/Scripts/ButtonManager.cs"
 "Assets/Class7th (UserInterface)/Scripts/SelectTable.cs"
 "Assets/Class8th (Movement)/Scripts/Movement.cs"
+"Assets/Class9th (Collision)/Scripts/Sensor.cs"
 -langversion:9.0
 /deterministic
 /optimize+
