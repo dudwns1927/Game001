@@ -291,7 +291,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a37d83ecd2bc6b45b3990fdc144c734, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 6440599648175510709, guid: c1ab9abedc9d80f4a9109fe99b4ea8d4, type: 3}
+  weapons:
+  - {fileID: 6440599648175510709, guid: c1ab9abedc9d80f4a9109fe99b4ea8d4, type: 3}
+  - {fileID: 4965438261709640327, guid: a35b8c32acba1334b9b31dfe8cdbc9be, type: 3}
+  - {fileID: 5786097810451525583, guid: 260ff1508afea5241b6511d8fbe92201, type: 3}
+  weaponList:
+  - {fileID: 6440599648175510709, guid: c1ab9abedc9d80f4a9109fe99b4ea8d4, type: 3}
+  - {fileID: 4965438261709640327, guid: a35b8c32acba1334b9b31dfe8cdbc9be, type: 3}
+  - {fileID: 5786097810451525583, guid: 260ff1508afea5241b6511d8fbe92201, type: 3}
   parentPosition: {fileID: 0}
 --- !u!1 &2075482405
 GameObject:

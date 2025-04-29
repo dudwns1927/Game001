@@ -4,11 +4,16 @@ using UnityEngine;
 
 public class WeaponManager : MonoBehaviour
 {
-    [SerializeField] GameObject prefab;
+    [SerializeField] GameObject[] weapons;
+    [SerializeField] List<GameObject> weaponList;
+    
     [SerializeField] Transform parentPosition;
 
-    private void Start() {
-        Instantiate(prefab, parentPosition);
+    void start() {
+        for (int i = 0; i < weapons.Length; i++) {
+            GameObject weapon = Instantiate(weapons[i], parentPosition);
+            weaponList.Add(weapon);
+        }
     }
 
 
