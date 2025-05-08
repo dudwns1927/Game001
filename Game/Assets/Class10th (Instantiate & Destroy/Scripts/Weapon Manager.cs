@@ -12,7 +12,7 @@ public class WeaponManager : MonoBehaviour
     [SerializeField] Transform parentPosition;
 
     [SerializeField] int count = 0;
-    int currentIndex = 0;
+    //int currentIndex = 0;
 
 
     private void Update() {
